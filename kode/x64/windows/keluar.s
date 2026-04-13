@@ -1,8 +1,9 @@
 .global keluar
 
+# ExitProcess(uExitCode ecx)
 .extern ExitProcess
 
+# keluar(kode_keluar ecx)
 keluar:
-    movq %rdi, %rcx
     call ExitProcess
-    retq
+    ret
