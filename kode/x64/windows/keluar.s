@@ -1,3 +1,5 @@
+.section .text
+
 .global keluar
 
 # ExitProcess(uExitCode ecx)

@@ -7,5 +7,6 @@ DIR_OBJEK=hasil/$DIR_ARSITEKTUR_DAN_SISTEM_OPERASI/objek
 mkdir -p $DIR_OBJEK
 
 clang -c kode/$DIR_ARSITEKTUR_DAN_SISTEM_OPERASI/keluar.s -o $DIR_OBJEK/keluar.o
+clang -c kode/$DIR_ARSITEKTUR_DAN_SISTEM_OPERASI/kumpulan_karakter.s -o $DIR_OBJEK/kumpulan_karakter.o
 
 ar rcs hasil/$DIR_ARSITEKTUR_DAN_SISTEM_OPERASI/pusrak.a $DIR_OBJEK/*.o
